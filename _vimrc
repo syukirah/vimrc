@@ -1,7 +1,18 @@
+" AUTHOR: SYUKUR BIN MD KASSIM
+" EMAIL: syukirah@yahoo.co.uk
+"
+
 call plug#begin('~/.vim/plugged')
 Plug 'junegunn/vim-easy-align'
 Plug 'pangloss/vim-javascript'
 Plug 'easymotion/vim-easymotion'
+Plug 'godlygeek/tabular'
+Plug 'altercation/vim-colors-solarized'
+Plug 'tpope/vim-surround'
+Plug 'ervandew/supertab'
+Plug 'bling/vim-airline'
+Plug 'scrooloose/syntastic'
+Plug 'Raimondi/delimitMate'
 Plug 'Valloric/YouCompleteMe'
 call plug#end()
 
@@ -27,7 +38,15 @@ inoremap <silent> <Bar>   <Bar><Esc>:call <SID>align()<CR>a
 map  / <Plug>(easymotion-sn)
 omap / <Plug>(easymotion-tn)
 
-let g:indent_guide_start_level = 2
+" Use together with Airline plugin
+set laststatus=2
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme =  'jellybeans'
+
+
+" Map jj to <Esc> character for easy access
+imap jj <Esc>
+
 
 """"""""""""
 " FUNCTION "
