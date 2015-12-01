@@ -1,6 +1,6 @@
 " AUTHOR: SYUKUR BIN MD KASSIM
 " EMAIL: syukirah@yahoo.co.uk
-"
+" DESCRIPTION: Common vimrc file for syukur
 
 call plug#begin('~/.vim/plugged')
 Plug 'junegunn/vim-easy-align'
