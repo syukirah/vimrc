@@ -1,8 +1,8 @@
 # SYUKUR COMMON VIMRC
 
 ## Prerequisite
-* plug.vim manager
 * Git application
+* plug.vim manager
  - [Click Plugin Website](https://github.com/junegunn/vim-plug)
 
 
