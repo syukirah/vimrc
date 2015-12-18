@@ -16,7 +16,6 @@ Plug 'Raimondi/delimitMate'
 Plug 'Valloric/YouCompleteMe'
 call plug#end()
 
-execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
