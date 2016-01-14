@@ -15,3 +15,8 @@
 ## Update
 * Open Vim then type :PlugUpdate to update all
 * Open Vim then type :PlugUpdate [module] to update sepcific module
+
+## YouCompleteMe
+* Require CMake to compile. (If not available)
+* Require libpython, install libpython (if not available)
+ - sudo apt-get install python-dev
