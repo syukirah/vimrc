@@ -11,6 +11,9 @@
 * Install Git application (skip if already installed)
 * Install plug.vim manager (refer website on how to install)
 * Open Vim then type :PlugInstall
+* Compile YouCompleteMe
+ - cd to YouCompleteMe folder
+ - ./install.py --clang-completer
 
 ## Update
 * Open Vim then type :PlugUpdate to update all
