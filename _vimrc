@@ -24,6 +24,9 @@ set tabstop=4
 set shiftwidth=4
 set number
 set background=dark
+set autoindent
+set smartindent
+set backspace=2
 
 colorscheme solarized
 set gfn=Courier_New:h9:cANSI
